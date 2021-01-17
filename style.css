@@ -8,7 +8,9 @@
 
 @media (min-width: 768px) {
   #head-section {
-    background-image: url("assets/pinkoffice3.jpg");
+    background-image: url("assets/pinkoffice4.png");
+    background-size: cover;
+    height: 600px;
   }
 
   .bd-placeholder-img-lg {
