@@ -18,6 +18,15 @@
   }
 }
 
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color:rgb(196, 65, 87);
+}
+
 body {
   background-color: lightgrey;
 }
