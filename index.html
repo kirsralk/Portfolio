@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en">
   <head>
@@ -9,9 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/0506b3f7e6.js" crossorigin="anonymous"></script>
     <title>Kirsi Ralko | Portfolio</title>
-    
-    <!-- Bootstrap core CSS -->
-    <link href="/docs/5.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
   </head>
 
   <body>
@@ -21,9 +18,10 @@
     <!--Jumbotron-type header section with background image-->
   <section class="py-5 text-center container-fluid" id="head-section">
     <div class="row py-lg-5">
-      <div class="col-lg-6 col-md-8 mx-auto">
-        <img src="assets/KirsiRalko.png" alt="Kirsi Ralko">
-      </div>
+      <div class="col">
+        <img src="assets/KirsiRalko.png" class="mobile-hide" alt="Kirsi Ralko">
+        <img src="assets/KirsiRalkoMobile.png" class="mobile-show" alt="Kirsi Ralko">
+      </div> 
     </div>
   </section>
 
@@ -33,11 +31,11 @@
     <div class="container">
 
         <div class="row">
-            <div class ="col-lg-2">
-                <img src="assets/kirsiavatar.png" id="avatar">
+            <div class ="col-lg-2 col-sm-12">
+                <img src="assets/kirsiavatar.png" class="avatar" id="avatar">
             </div>
 
-        <div class ="col-lg-10" style="text-align: center; padding-left: 50px">
+        <div class ="col-lg-10 col-sm-12" style="text-align: center; padding-left: 50px">
             <h1>Hi, I'm Kirsi.</h1>
                 <h1>Lawyer, entrepreneur & aspiring developer.</h1>
             <p class="lead">
@@ -50,10 +48,10 @@
         <!-- ABOUT -->
         <div class="row">
             <h1>About.</h1>
-            <p>Graduate of the Honours Bachelor of Commerce (General Management & Information Systems) program at Lakehead University  & the Robson Hall Faculty of Law at University of Manitoba.
+            <p class="mobile-center">Graduate of the Honours Bachelor of Commerce (General Management & Information Systems) program at Lakehead University  & the Robson Hall Faculty of Law at University of Manitoba.
                 Founder of two brick & mortar start-ups. I've been coding since I was 9.
             </p>
-            <h5><i class="far fa-file"></i><a href=""> Download Resume (pdf)</a></h5>
+            <h5 class="mobile-center"><i class="far fa-file"></i><a href=""> Download Resume (pdf)</a></h5>
         </div>    
         
         <hr />
@@ -144,10 +142,6 @@
     <p class="mb-1"> &copy;2021 Kirsi Ralko</p>
   </div>
 </footer>
-
-
-    <script src="/docs/5.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-
-      
-  </body>
+     
+</body>
 </html>
